@@ -84,3 +84,9 @@ h1{
 
 /*3c3c3c
 323232*/
+
+@media screen and (min-width: 480px) {
+    #calc-screen{
+        font-size:6em;
+    }
+}
