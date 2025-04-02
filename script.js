@@ -97,7 +97,7 @@ const evaluate = ()=>{
     op1=String(Number(op1)+Number(op2));
   }else if(lastOp==='-'){
     op1=String(Number(op1)-Number(op2));
-  }else if(lastOp==='*'){
+  }else if(lastOp==='x'){
     op1=String(Number(op1)*Number(op2));
   }else if(lastOp==='/'){
     op1=String(Number(op1)/Number(op2));
