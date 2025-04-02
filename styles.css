@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #202020;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 1.75em;
+    font-weight: 500;
+    padding-left: 20px;
+    margin: 10px 0px 10px 0px;
+}
+
+.main-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#calculation{
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.screen{
+    flex: 0.3;
+}
+
+#calc-screen{
+    padding: 20px;
+    font-size:8em;
+    text-align: right;
+}
+
+.keys{
+    flex: 0.7;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+    justify-items: center;
+    font-size: larger;
+    margin: 3px;
+    user-select: none;
+}
+
+.key{
+    display: flex;
+    background-color: #323232;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor:default;
+}
+
+.key:hover{
+    background-color: #3c3c3c;
+}
+
+.key.nums{
+    background-color: #3c3c3c;
+}
+
+.key.nums:hover{
+    background-color: #323232;
+}
+
+.eq{
+    background-color: #4cc2ff;
+}
+
+.eq:hover{
+    background-color: #47b1e8;
+}
+
+
+/*3c3c3c
+323232*/
